@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\adang\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\adang\\.nuget\\packages"
+    ]
+  }
+}

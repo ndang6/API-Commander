@@ -7,12 +7,42 @@ namespace Commander.Data
     {
         public IEnumerable<Command> GetAppCommands()
         {
-            throw new System.NotImplementedException();
+            var commands = new List<Command>{
+                new Command
+                {
+                    Id = 0,
+                    HowTo = "Boil an egg",
+                    Line = "Boil Water",
+                    Platform = "Kettle & Pan"
+                },
+                new Command
+                {
+                    Id = 1,
+                    HowTo = "Cut bread",
+                    Line = "Get a knife",
+                    Platform = "Chopping Board"
+                },
+                new Command
+                {
+                    Id = 2,
+                    HowTo = "Make a cup of tea",
+                    Line = "Get a teabag",
+                    Platform = "Kettle & Cup"
+                }
+            };
+
+            return commands;
         }
 
         public Command GetCommandById(int id)
         {
-            throw new System.NotImplementedException();
+            return new Command
+            {
+                Id = 0,
+                HowTo = "Boil an egg",
+                Line = "Boil Water",
+                Platform = "Kettle & Pan"
+            };
         }
     }
 }
