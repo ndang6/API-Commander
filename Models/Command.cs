@@ -1,10 +1,18 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Commander.Models
 {
     public class Command
     {
-        public int Id { get; set; }
-        public string HowTo { get; set; }
-        public string Line { get; set; }
-        public string Platform { get; set; }
+        [Key]
+        public int id { get; set; }
+
+        [Required]
+        [MaxLength(250)]
+        public string title { get; set; }
+
+        [Required]
+        public string completed { get; set; }
+
     }
 }

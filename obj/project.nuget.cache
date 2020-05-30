@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ieJZj0/ndV2gMnykKSl4BBqs6cmozG2BfL0biL3cpsXTfNHDPOVK0iFKsHg6VaxwzGtLCyLaL955i72MAsrLMA==",
+  "dgSpecHash": "tpmvlrDd34heHKaQZHi0GtQiCaLS3Q5KE3NeEk/XIEr3JIqk/ebu1I4FbVmJ2wXxJIXAz+lziW9tKtXZrV635w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adang\\Desktop\\Commander\\Commander.csproj",
+  "projectFilePath": "C:\\Users\\adang\\Desktop\\API-Commander\\Commander.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adang\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\adang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\adang\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\adang\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\adang\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

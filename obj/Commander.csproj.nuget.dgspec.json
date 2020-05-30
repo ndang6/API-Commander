@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adang\\Desktop\\Commander\\Commander.csproj": {}
+    "C:\\Users\\adang\\Desktop\\API-Commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adang\\Desktop\\Commander\\Commander.csproj": {
+    "C:\\Users\\adang\\Desktop\\API-Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adang\\Desktop\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\adang\\Desktop\\API-Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\adang\\Desktop\\Commander\\Commander.csproj",
+        "projectPath": "C:\\Users\\adang\\Desktop\\API-Commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\adang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adang\\Desktop\\Commander\\obj\\",
+        "outputPath": "C:\\Users\\adang\\Desktop\\API-Commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"

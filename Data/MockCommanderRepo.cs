@@ -5,30 +5,12 @@ namespace Commander.Data
 {
     public class MockCommanderRepo : ICommanderRepo
     {
-        public IEnumerable<Command> GetAppCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>{
-                new Command
-                {
-                    Id = 0,
-                    HowTo = "Boil an egg",
-                    Line = "Boil Water",
-                    Platform = "Kettle & Pan"
-                },
-                new Command
-                {
-                    Id = 1,
-                    HowTo = "Cut bread",
-                    Line = "Get a knife",
-                    Platform = "Chopping Board"
-                },
-                new Command
-                {
-                    Id = 2,
-                    HowTo = "Make a cup of tea",
-                    Line = "Get a teabag",
-                    Platform = "Kettle & Cup"
-                }
+                new Command{ id = 1, title="Learn Azure", completed="false"},
+                new Command{ id = 2, title="Learn VUE", completed="false"},
+                new Command{ id = 3, title="Learn .NET CORE", completed="false"}
             };
 
             return commands;
@@ -36,13 +18,7 @@ namespace Commander.Data
 
         public Command GetCommandById(int id)
         {
-            return new Command
-            {
-                Id = 0,
-                HowTo = "Boil an egg",
-                Line = "Boil Water",
-                Platform = "Kettle & Pan"
-            };
+            return new Command { id = 1, title = "Learn Azure", completed = "true" };
         }
     }
 }
