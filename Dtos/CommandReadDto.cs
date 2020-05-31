@@ -2,7 +2,7 @@ namespace Commander.Dtos
 {
     public class CommandReadDto
     {
-        //public int id { get; set; }
+        public int id { get; set; }
 
         public string title { get; set; }
 
