@@ -25,6 +25,10 @@ namespace Commander.Controllers
             _mapper = mapper;
         }
 
+
+
+
+
         /*GET  /api/commands */
         [HttpGet]
         public ActionResult<IEnumerable<CommandReadDto>> GetAllCommands()
@@ -45,6 +49,7 @@ namespace Commander.Controllers
             return NotFound();
         }
 
+        /*POST /api/commands */
         [HttpPost]
         public ActionResult<CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
         {
@@ -58,7 +63,7 @@ namespace Commander.Controllers
             return CreatedAtRoute(nameof(GetCommandById), new { id = commandReadDto.id }, commandReadDto);
         }
 
-        /*POST api/commands */
+        /*POST api/commands/{id} */
         [HttpPut("{id}")]
         public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
         {
